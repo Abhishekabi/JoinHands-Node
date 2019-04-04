@@ -1,0 +1,33 @@
+body {
+  background-image: url('../img/bg.png');
+  color: whitesmoke;
+}
+.input-group-text {
+  background-color: #4b4a4a;
+  color: white;
+  border: none;
+}
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 720px;
+}
+.btn {
+  margin-top: 10px;
+}
+label {
+  font-size: 1.2rem;
+}
+.page-header h1 {
+  padding-bottom: 15px;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}

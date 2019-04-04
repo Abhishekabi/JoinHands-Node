@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>JoinHands homepage</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="container">
+      <div class="left">
+        <a href="#"><span class="logo">JoinHands</span></a>
+      </div>
+      <div class="right">
+        <p>Want to become a employee ?</p>
+        <br />
+        <a href="/api/auth/register" class="btn btn-r"><span>Register</span></a>
+        <a href="/api/auth/login" class="btn btn-b">Login</a>
+      </div>
+    </header>
+    <section class="middle">
+      <p>Want to hire a worker?</p>
+      <form role="form" action='/public/search' method='POST'>
+        <div class="row">
+          <input type="text" class="searchbox" placeholder="eg: carpenter, electrician" name="query" required />
+          <button type="submit" class="btn-search">
+            <span>Search</span>
+          </button>
+        </div>
+      </form>
+
+    </section>
+  </div>
+
+</body>
+
+</html>
